@@ -47,7 +47,7 @@ class App extends Component {
   }
 
   render() {
-    const params = JSON.parse(Base64.decode(window.location.search.substr(6)));
+    const params = window.location.search.length > 5 ? JSON.parse(Base64.decode(window.location.search.substr(6))) : null;
     return (
       <div className="App">
         <header className="App-header">
