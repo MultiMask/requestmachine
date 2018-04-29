@@ -51,8 +51,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to RequestMachine</h1>
+          <h4>Here you can ask someone to send you cryptomoney</h4>
+          <h5>You have to specify your address, required amount, currency and email of the sponsor</h5>
         </header>
         <form>
         { params &&
