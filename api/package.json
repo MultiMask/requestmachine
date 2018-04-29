@@ -1,0 +1,30 @@
+{
+    "name": "ducaturbet-api",
+    "version": "0.0.1",
+    "description": "THIS IS DUCATUR BETTING",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DucaturFw/betforchart_oracle.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DucaturFw/betforchart_oracle/issues"
+    },
+    "homepage": "https://github.com/DucaturFw/betforchart_oracle#readme",
+    "dependencies": {
+        "deep-sort-object": "^1.0.2",
+        "email-template": "0.0.1-1",
+        "email-templates": "^3.6.0",
+        "express": "^4.16.3",
+        "js-base64": "^2.4.3",
+        "mongodb": "^3.0.5",
+        "nodemailer": "^4.6.4",
+        "pug": "^2.0.3",
+        "read-yaml": "^1.1.0"
+    }
+}
